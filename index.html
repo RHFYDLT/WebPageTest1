@@ -25,9 +25,10 @@
         </style>
   </head>
 
-<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
 <body style="background-color:powderblue;">
-<div id="myChart" style="width:100%; max-width:600px; height:500px;"></div>
+<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+
+
 
 
   
@@ -62,18 +63,14 @@
   </tr>
 </table>
   
-  <button type="button"
-onclick="document.getElementById('demo').innerHTML = Date()">
-Click me to display Date and Time.</button>
-  
-  <p id="demo"></p>
+
   
   <h3 id="Abstract">Abstract</h3>
   Some text
   <h3 id="Introduction">Introduction</h3>
   Bridge deck repair durability is the subject of much recent research such as in <a href="https://www.icevirtuallibrary.com/doi/full/10.1680/jbren.21.00034">Toshihiko et al (2023).</a>
   
-  
+ <div id="myChart" style="width:100%; max-width:600px; height:500px;"></div> 
   <script>
 google.charts.load('current',{packages:['corechart']});
 google.charts.setOnLoadCallback(drawChart);
