@@ -54,7 +54,7 @@
     <td>Introduction</td>
   </tr>
   <tr>
-    <td>Another section</td>
+    <td>Related work</td>
   </tr>
   <tr>
     <td>Another section</td>
@@ -68,18 +68,26 @@
 </table>
   <hr>
   <h3 id="Abstract">Abstract</h3>
+  This paper presents a novel adaptive active learning strategy. 
+  The most accurate classification model from a heterogeneous classifier pool is selected at each learning epoch. 
+  Our goal is to achieve greater incremental improvement in accuracy, compared to using a single type of classification model throughout the process. 
+  The strategy is evaluated on benchmark data sets. 
+  We further consider an application to texture classification problems in sonar mosaic imagery and compare it with non-adaptive active learning and traditional machine learning approaches. 
+  Our results show that…We conclude that…
   
-  The use of numbers expressed in surd form when solving Mathematical problems is one of the hallmarks of a competent Mathematician. 
-  Manipulation of surds is an indispensable basic skill that can be used extensively in many different topic areas. 
-  Although surds have probably been in use for around 1200 years, there is no universally accepted definition of what a surd is. 
-  To suit our purposes, one way to view a surd, is simply to think of it as the positive root of a number, which we leave unevaluated. 
-  For this learning objective we will focus on square roots.  
-  The irrational number, √5 is a surd but if we evaluate this on a calculator we obtain √5 = 2.236067977… 
-  Clearly, regarding the accuracy of our calculations, it is better to work with the exact form of√5. 
-  Introducing rounded decimals at an early stage in a sequence of numerical calculations is inadvisable since any rounding errors will propagate as we progress through the sequence. 
   
   <h3 id="Introduction">Introduction</h3>
-  <pre>
+  
+  Active Learning (Angluin, 1988, Cohn et al., 1994) is a paradigm where a concept is learnt by an intelligent machine through the interaction of an oracle with the machine system, 
+  over a sequence of learning epochs. 
+  A distinctive component in an active system is the querying strategy, used to sample candidate training instances from a pool and evaluate them for informativeness, 
+  i.e., their potential to improve the classification model. Various strategies have been proposed including; Query by Committee (Seung et al., 1992), 
+  Monte Carlo estimation (Roy and McCallum, 2001), uncertainty sampling (Lewis and Gale, 1994) and version space reduction (margin sampling) (Tong and Koller, 2001). 
+  Irrespective of how the most informative pattern instances are chosen at each epoch they are presented for labeling, to a machine (database) or human oracle that has 
+  knowledge of the class labels. After adding the newly labeled instances to the current training set, a revised model is subsequently induced. 
+  A goal of this process is to achieve an efficient, incremental advancement of learning at each epoch. The process is continued until some stopping criterion has been met, 
+  such as reaching a stage where information from the selected instances is contrary to the model, causing the classifier confidence to drop, as in Vlachos (2008).
+  
   Bridge deck repair durability is the subject of much recent research such as in <a href="https://www.icevirtuallibrary.com/doi/full/10.1680/jbren.21.00034">Toshihiko et al (2023).</a>
   
   Table 1: Data on cost and lifespan of bridge repairs
@@ -111,7 +119,7 @@
 </table>
   
   Figure 1: Scatter plot showing data
-  </pre>
+ 
   
  <div id="myChart" style="width:100%; max-width:600px; height:500px;"></div> 
   <script>
