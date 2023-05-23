@@ -7,7 +7,7 @@
     <img src="WebBanner.png" alt="Banner" width="900" height="300">
      <h2>Page ID: 123456</h2>  
     <hr>
-    <h1 style="font-family:calibri;"><b>My conference project paper</b></h1>
+    <h1 style="font-family:calibri;"><b>Conference paper: Bridge Deck Repairs</b></h1>
     <hr>
         <!style for tables>
         <style>
@@ -202,7 +202,7 @@ Formatting some equations using MathML
   
   <hr>
   <hr>
-   <h1 style="font-family:calibri;">My conference presentation slides</h1>
+   <h1 style="font-family:calibri;">Conference presentation: Bridge Deck Repairs</h1>
   <hr>
 <div class="w3-container">
   
